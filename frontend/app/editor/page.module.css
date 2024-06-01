@@ -1,0 +1,40 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+.head {
+  display: flex;
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.h1 {
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.a {
+  color: white;
+  background-color: grey;
+  height: 40px;
+  width: 120px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}

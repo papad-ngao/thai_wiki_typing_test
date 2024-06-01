@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Niramit:wght@600&display=swap');
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+.head {
+  display: flex;
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: 400px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.h1 {
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.a {
+  color: white;
+  background-color: grey;
+  height: 40px;
+  width: 120px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.p {
+  font-family: "Niramit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  background-color: hsl(60, 40%, 80%);
+  border-color: magenta;
+  border-width: 2px;
+  height: 360px;
+  width: 800px;
+  overflow-y: scroll;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.lines {
+  height: 80px;
+  /* height: 220px; */
+  width: 720px;
+  background-color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.tysp {
+  background-color: hsl(0, 0%, 80%);
+}
+
+.sksp {
+  color: hsl(0, 0%, 80%);
+}
+
+.tygsp {
+  color: black;
+}
+
+.tyusp {
+  color: hsl(0, 0%, 60%);
+}
+
+.line_fl {
+  height: 60px;
+  width: 700px;
+  border-color: olive;
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.line_fl_th {
+  color: hsl(0, 0%, 0%);
+}
+
+.line_fl_tw {
+  color: hsl(0, 100%, 30%);
+  /* top: -70px; */
+}
+
+.line_fl_on {
+  color: hsl(0, 100%, 60%);
+  /* top: -140px; */
+}
+
+.fl_tw {
+  color: hsl(0, 100%, 30%);
+}
+
+.sphl {
+    background-color: #ffff94;
+    padding-top: 3px;
+    padding-bottom: 8px;
+}
+
+.rdsphl {
+    color: #FF0000;
+    background-color: #ffff94;
+    padding-top: 3px;
+    padding-bottom: 8px;
+}
+
+.grsphl {
+    color: #CCCCCC;
+    background-color: #ffff94;
+    padding-top: 3px;
+    padding-bottom: 8px;
+}
+
+.ul {
+  display: list-item;
+  list-style: disc;
+}

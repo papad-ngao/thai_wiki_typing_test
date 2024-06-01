@@ -1,0 +1,7 @@
+PUT http://127.0.0.1:8000/wikis/66518f62f62adddcf9be24b0 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "abcd 1",
+    "count": 1
+}

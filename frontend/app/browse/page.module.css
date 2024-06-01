@@ -1,0 +1,78 @@
+@import url(
+  'https://fonts.googleapis.com/css2?family=Sarabun:wght@600&display=swap');
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  min-height: 100vh;
+  font-family: "Sarabun", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.head {
+  display: flex;
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: 400px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.h1 {
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.a {
+  color: white;
+  background-color: grey;
+  height: 40px;
+  width: 120px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.p {
+  height: 600px;
+  width: 900px;
+  background-color: hsl(270, 20%, 80%);
+  padding-top: 8px;
+  margin-bottom: 20px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.line_fl {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 8px;
+  font-size: 24px;
+  /* height: 64px; */
+  width: 840px;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* color: hsl(0, 0%, 60%); */
+}

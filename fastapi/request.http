@@ -1,0 +1,6 @@
+POST http://127.0.0.1:8000/remove HTTP/1.1
+content-type: application/json
+
+{
+    "info": "665ae0a1361bab0bc32fce48"
+}
