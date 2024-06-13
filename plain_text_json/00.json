@@ -1,4 +1,4 @@
-db.info.insertMany([
+[
     {
         "title": "ความคิด",
         "content": {
@@ -116,4 +116,4 @@ db.info.insertMany([
         "word_num": 36,
         "created_time": "26/05/2024 14:02:33 GMT +0700"
     }
-])
+]
