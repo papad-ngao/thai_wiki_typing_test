@@ -1,2 +1,2 @@
-db.info.insertMany([
-])
+db.info.insertMany(
+)
